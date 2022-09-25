@@ -73,6 +73,7 @@ class screen extends State<screen2> {
       ],
     );
     showDialog(
+        barrierDismissible: false,
         context: context,
         builder: (BuildContext) {
           return alertDialog;
